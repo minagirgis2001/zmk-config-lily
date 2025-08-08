@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: SamIAm2000
+      url-base: https://github.com/SamIAm2000
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: SamIAm2000
+      revision: bongo-cat-dedicated-work-queue
       import: app/west.yml
   self:
     path: config
