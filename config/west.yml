@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: vang0130
-      url-base: https://github.com/vang0130
+    - name: SamIAm2000
+      url-base: https://github.com/SamIAm2000
   projects:
     - name: zmk
-      remote: vang0130
+      remote: SamIAm2000
       revision: bongo-cat
       import: app/west.yml
   self:
