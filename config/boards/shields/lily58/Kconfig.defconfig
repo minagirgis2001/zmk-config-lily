@@ -1,0 +1,13 @@
+if SHIELD_LILY58_LEFT || SHIELD_LILY58_RIGHT
+
+if ZMK_DISPLAY
+
+config ZMK_WIDGET_BONGO_CAT
+    bool "Enable bongo cat widget"
+    select LV_USE_CANVAS
+    select LV_USE_IMG
+    default n
+
+endif # ZMK_DISPLAY
+
+endif
